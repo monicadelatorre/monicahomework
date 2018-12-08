@@ -1,0 +1,9 @@
+Election Results
+--------------------
+Total Votes = 19
+--------------------
+Kahn: 57.895% (11)
+Correy: 36.842% (7)
+Li: 5.263% (1)
+O'Tooley: 0.000% (0)
+Winner: Kahn
