@@ -15,30 +15,22 @@ submit.on("click", function() {
     
     // Select the input element and get the raw HTML node
     var inputElement = d3.select("#datetime");
-    var inputElement2 = d3.select("#datetime");
-    var inputElement3 = d3.select("#datetime");
-    var inputElement4 = d3.select("#datetime");
-    var inputElement5 = d3.select("#datetime");
+
     
     // Get the value property of the input element
     var inputValue = inputElement.property("value");
-    var inputValue2 = inputElement2.property("value");
-    var inputValue3 = inputElement3.property("value");
-    var inputValue4 = inputElement4.property("value");
-    var inputValue5 = inputElement5.property("value");
-//    console.log(inputValue);
-//    console.log(inputValue2);
-//    console.log(tableData);
+
+    //These are the filters for date, city,state,country,shape
     
     var filteredData = tableData.filter(person => person.datetime === inputValue);
     
-    var filteredData2 = tableData.filter(person2 => person2.city === inputValue2);
+    var filteredData2 = tableData.filter(person => person.city === inputValue);
     
-    var filteredData3 = tableData.filter(person3 => person3.state === inputValue);
+    var filteredData3 = tableData.filter(person => person.state === inputValue);
     
-    var filteredData4 = tableData.filter(person4 => person4.country === inputValue);
+    var filteredData4 = tableData.filter(person => person.country === inputValue);
     
-    var filteredData5 = tableData.filter(person5 => person5.shape === inputValue);
+    var filteredData5 = tableData.filter(person => person.shape === inputValue);
     
     console.log(filteredData);
     console.log(filteredData2);
