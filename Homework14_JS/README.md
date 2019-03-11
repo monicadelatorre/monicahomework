@@ -1,5 +1,8 @@
 # Unit 14 | Assignment - JavaScript and DOM Manipulation
 
+This code can be run by opening the js file and html file in Brackets. Use live preview to open browser and test inputting a date, city, state, country or shape. Use the clear page button to refresh the page before entering a new desired filter.
+
+
 ## Background
 
 WAKE UP SHEEPLE! The extra-terrestrial menace has come to Earth and we here at `ALIENS-R-REAL` have collected all of the eye-witness reports we could to prove it! All we need to do now is put this information online for the world to see and then the matter will finally be put to rest.
